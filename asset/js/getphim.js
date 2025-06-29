@@ -32,5 +32,5 @@ async function loadPopularMovies() {
     container.innerHTML = "<p>Không thể tải phim ngay lúc này.</p>";
   }
 }
-
+alert("hihi");
 document.addEventListener("DOMContentLoaded", loadPopularMovies)
